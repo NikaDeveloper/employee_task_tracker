@@ -1,6 +1,6 @@
 [flake8]
 # Максимальная длина строки
-max-line-length = 100
+max-line-length = 120
 
 # Исключить папки
 exclude = .git,venv,.venv,migrations
