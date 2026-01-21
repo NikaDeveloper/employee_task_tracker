@@ -47,7 +47,7 @@ jobs:
         POSTGRES_DB: tracker_db
         POSTGRES_USER: postgres
         POSTGRES_PASSWORD: password
-        DB_HOST: localhost
+        DB_HOST: 127.0.0.1
         DB_PORT: 5432
       run: |
         python manage.py migrate
